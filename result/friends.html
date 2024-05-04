@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="result-title"></title>
+    <link rel="stylesheet" href="./result.css">
+    <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<script>
+
+</script>
+
+<body id="result-body">
+    <div id="result-content">
+        <!-- SPLASHSCREEN -->
+        <div id="splashscreen">
+            <div class="splash-text-container">
+                <span id="f">f</span>
+                <span id="l">l</span>
+                <span id="a">a</span>
+                <span id="m">m</span>
+                <span id="e">e</span>
+                <span id="s">s</span>
+                <span id="period">.</span>
+            </div>
+        </div>
+
+        <!-- COVER PAD -->
+        <div class="pad-wrapper pos--absolute">
+            <div class="pad pos--absolute fall-initial" id="cover-pad">
+                <div class="vertical-lines" id="vl1"></div>
+                <div class="vertical-lines" id="vl2"></div>
+                <div class="horizontal-lines" id="hl2"></div>
+                <div class="horizontal-lines" id="hl3"></div>
+                <div class="horizontal-lines" id="hl4"></div>
+                <div class="horizontal-lines" id="hl5"></div>
+                <div class="horizontal-lines" id="hl6"></div>
+                <div class="horizontal-lines" id="hl7"></div>
+                <div class="horizontal-lines" id="hl8"></div>
+                <div class="horizontal-lines" id="hl9"></div>
+                <div class="horizontal-lines" id="hl10"></div>
+                <div class="horizontal-lines" id="hl11"></div>
+                <div class="horizontal-lines" id="hl12"></div>
+                <div id="text-wrapper">
+                    <p class="cover-btn pos--absolute style--italic" id="cover-btn">open</p>
+                </div>
+            </div>
+        </div>
+        <!-- MAIN PAD -->
+        <div class="pad-wrapper pos--absolute" id="main-pad">
+            <div class="pad pos--absolute">
+                <div class="vertical-lines" id="vl1"></div>
+                <div class="vertical-lines" id="vl2"></div>
+                <div class="horizontal-lines" id="hl2"></div>
+                <div class="horizontal-lines" id="hl3"></div>
+                <div class="horizontal-lines" id="hl4"></div>
+                <div class="horizontal-lines" id="hl5"></div>
+                <div class="horizontal-lines" id="hl6"></div>
+                <div class="horizontal-lines" id="hl7"></div>
+                <div class="horizontal-lines" id="hl8"></div>
+                <div class="horizontal-lines" id="hl9"></div>
+                <div class="horizontal-lines" id="hl10"></div>
+                <div class="horizontal-lines" id="hl11"></div>
+                <div class="horizontal-lines" id="hl12"></div>
+                <div id="text-wrapper" class="pos--absolute">
+                    <h1>RESULT:</h1>
+                    <p id="result" class="pos--absolute">Friends</p>
+                    <div id="description-wrapper" class="pos--absolute">
+                        <p id="description"></p>
+                    </div>
+                </div>
+                <a href="https://eternumzed.github.io/flames./"> <i class="fa-solid fa-arrow-left" id="arrow"></i></a>
+                <!-- SHARE LINK -->
+                <a id="share-link" class="share-link">share.</a>
+            </div>
+        </div>
+        <!-- AUDIO PLAYER -->
+        <div id="player" class="close pos--absolute">
+            <p class="style--italic" id="nowPlaying">now playing</p>
+            <p class="song-name">Bakit 'Di Totohanin - Carol Banawa</p>
+            <i class="fa-regular fa-circle-play circle" id="play"></i>
+            <i class="fa-regular fa-circle-stop circle close" id="pause"></i>
+        </div>
+
+    </div>
+    <!-- SCRIPTS -->
+    <script src="./result.js" type="text/javascript"></script>
+    <script src="../index.js" type="text/javascript"></script>
+</body>
+
+
+
+</html>
