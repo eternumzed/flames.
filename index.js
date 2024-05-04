@@ -1,7 +1,7 @@
 window.addEventListener("DOMContentLoaded", () => {
     const indexEl = document.getElementById("index-content");
     const bodyTag = document.getElementById("body");
-    if (window.innerHeight < 600 || window.innerWidth < 1300) {
+    if (window.innerHeight < 400 || window.innerWidth < 1000) {
         indexEl.style.display = "none";
         bodyTag.style.background = "white";
         bodyTag.textContent = "PC Only 😎";
