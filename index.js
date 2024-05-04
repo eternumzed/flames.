@@ -4,7 +4,7 @@ window.addEventListener("DOMContentLoaded", () => {
     if (window.innerHeight < 700 || window.innerWidth < 1500) {
         indexEl.style.display = "none";
         bodyTag.style.background = "white";
-        bodyTag.textContent = "PC Only";
+        bodyTag.textContent = "PC Only 😎";
     } else {
         const firstNameEl = document.getElementById("fName");
         const secondNameEl = document.getElementById("sName");
